@@ -222,7 +222,7 @@ body {
 }
 
 /* DESKTOP VERSION */
-@media only screen and (width > 1110px) {
+@media only screen and (width >= 1180px) {
     .cards {
         display: grid;
         grid-template: "card-1 card-1 card-2 card-5" 1fr
@@ -262,7 +262,7 @@ body {
 }
 
 /* MOBILE VERSION */
-@media only screen and (width <= 1110px) {
+@media only screen and (width < 1180px) {
     :root {
         --body-height: 1966px;
 
